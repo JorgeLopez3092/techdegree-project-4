@@ -7,25 +7,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lightbox Gallery</title>
   <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-<div class="wrap">
 
-<input type="text" id="search" placeholder="Search..">
+<input type="text" id="search" placeholder="Search.." onkeyup="myFunction">
 
-<div class="container">
+<div class="flexcontainer">
+  <a href="photos/01.jpg" data-lightbox="01" data-title="Hayfield blue cloudy sky">
+    <img src="photos/thumbnails/01.jpg" alt="Hayfield thumbnail">
+  </a>
 
+  <a href="photos/02.jpg" data-lightbox="01" data-title="Great lake with mountains in the distance">
+    <img src="photos/thumbnails/02.jpg" alt="Great lake and mountains thumbnail">
+  </a>
 
+  <a href="photos/03.jpg" data-lightbox="01" data-title="Gray forest overcast sky">
+    <img src="photos/thumbnails/03.jpg" alt="forest gray skies thumbnail">
+  </a>
 
+  <a href="photos/04.jpg" data-lightbox="01" data-title="Ice on lake near Tundra and Mountains">
+    <img src="photos/thumbnails/04.jpg" alt="Mountain and tundra thumbnail">
+  </a>
 
+  <a href="photos/05.jpg" data-lightbox="01" data-title="Canyon in the sunlight">
+    <img src="photos/thumbnails/05.jpg" alt="canyon thumbnail">
+  </a>
 
+  <a href="photos/06.jpg" data-lightbox="01" data-title="Shrubbery in overcast along wooden fence">
+    <img src="photos/thumbnails/06.jpg" alt="Shrubby thumbnail">
+  </a>
 
+  <a href="photos/07.jpg" data-lightbox="01" data-title="Lush green forest with hills in the horizon">
+    <img src="photos/thumbnails/07.jpg" alt="forest thumbnail">
+  </a>
 
+  <a href="photos/08.jpg" data-lightbox="01" data-title="Hot desert with some shrubs">
+    <img src="photos/thumbnails/08.jpg" alt="desert thumbnail">
+  </a>
+
+  <a href="photos/09.jpg" data-lightbox="01" data-title="Small path/road that is surrounded by bushes/plants">
+    <img src="photos/thumbnails/09.jpg" alt="Small path thumbnail">
+  </a>
+
+  <a href="photos/10.jpg" data-lightbox="01" data-title="Ocean shore by hill and trees">
+    <img src="photos/thumbnails/10.jpg" alt="Ocean shore thumbnail">
+  </a>
+
+  <a href="photos/11.jpg" data-lightbox="01" data-title="Looking out a cave at a road surrounded by a green field and trees/forest">
+    <img src="photos/thumbnails/11.jpg" alt="Cave forest thumbnail">
+  </a>
+
+  <a href="photos/12.jpg" data-lightbox="01" data-title="Lavender field with trees and mountains in the distance">
+    <img src="photos/thumbnails/12.jpg" alt="lavender field thumbnail">
+  </a>
 
 
 </div>
+<script src="js/jquery3.3.1"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/search.js"></script>
 
-
-</div>
 </body>

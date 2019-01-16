@@ -2,12 +2,6 @@
   box-sizing: border-box;
 }
 
-.wrap {
-  width: 90%;
-  max-width: 1150px;
-  margin: auto;
-
-}
 
 #search {
   display: block;
@@ -21,6 +15,23 @@
   font-size: 16px;
 }
 
-.container {
+.flexcontainer {
   display: flex;
+  max-width: 1000px;
+  flex-grow: 1;
+  margin: auto;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+a {
+  display: flex;
+  width: 22%;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 100%;
 }
