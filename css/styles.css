@@ -25,7 +25,7 @@
   flex-wrap: wrap;
 }
 
-a {
+.flexcontainer a {
   display: flex;
   width: 20%;
   justify-content: center;

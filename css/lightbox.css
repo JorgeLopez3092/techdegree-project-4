@@ -160,14 +160,15 @@ html.lb-disable-scrolling {
 }
 
 .lb-data .lb-details {
-  width: 85%;
+  width: 600px;
   float: left;
   text-align: left;
   line-height: 1.1em;
+  margin-left: 117.5px;
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 1em;
 }
